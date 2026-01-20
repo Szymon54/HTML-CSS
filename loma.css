@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* px vh vw % em rem */
+    font-size: 16px;
+    color:  black
+}
+.containerrr {
+    width: 80%;
+    margin: auto;
+}
+
+article img {
+    /* kuvan koko on maksimissaan 100% siitä tilasta, missä se on, eli tässä container 900px*/
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.logo{
+    width: 320px;
+    height: auto;
+}
+
+h1{
+    color: #00abf1;
+    color: var(--sininen);
+    font-size: 32px;
+    margin-bottom: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 16px;
+}
+nav ul {
+    padding-left: 0;
+}
+nav a, nav a:visited, nav a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #00abf1;
+    background-color: var(--sininen);
+    padding: 6px 16px 6px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+    padding: 16px;
+    background-color: #00abf1;
+    color: white;
+    font-weight: bold;
+}
+
+h1::after {
+    content: "";
+
+}
